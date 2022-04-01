@@ -89,8 +89,57 @@ declare module "@mui/material/Typography" {
   }
 }
 
+// type props
 type TypographyProps = MuiTypographyProps;
 
-const Typography = styled(MuiTypography)<TypographyProps>(({ theme }) => ({}));
+// styled version of mui typography
+const StyledTypography = styled(MuiTypography, {})<TypographyProps>(({ theme }) => ({}));
+
+// returns react fc with props and variants mapped to the right elements
+const Typography: React.FC<TypographyProps> = (props) => {
+  return (
+    <StyledTypography
+      {...props}
+      variantMapping={{
+        h1: "h1",
+        h2: "h2",
+        h3: "h3",
+        h4: "h4",
+        h5: "h5",
+        h6: "h6",
+        subtitle1: "h6",
+        subtitle2: "h6",
+        body1: "p",
+        body2: "p",
+        inherit: "p",
+
+        h1Primary: "h1",
+        h2Primary: "h2",
+        h3Primary: "h3",
+        h4PrimaryLarge: "h4",
+        h4PrimarySmall: "h4",
+        h4PrimaryHero: "h4",
+        h5PrimaryLarge: "h5",
+        h5PrimarySmall: "h5",
+        h6PrimaryLarge: "h6",
+        h6PrimarySmall: "h6",
+        h6PrimaryAction: "h6",
+        body1Primary: "p",
+        body2Primary: "p",
+        paragraph1Primary: "p",
+        paragraph2Primary: "p",
+
+        h1Secondary: "h1",
+        h2Secondary: "h2",
+        h3Secondary: "h3",
+        h4Secondary: "h4",
+        h5Secondary: "h5",
+        h6Secondary: "h6",
+        body1Secondary: "p",
+        body2Secondary: "p",
+      }}
+    />
+  );
+};
 
 export default Typography;

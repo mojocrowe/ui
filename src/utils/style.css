@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "NewYorkExtraLargeMedium";
+  font-display: "swap";
+  src: local("NewYorkExtraLargeMedium"), url("../assets/fonts/NewYorkExtraLargeMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NewYorkExtraLargeRegular";
+  font-display: "swap";
+  src: local("NewYorkExtraLargeRegular"), url("../assets/fonts/NewYorkExtraLargeRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FuturaCondensedExtraBold";
+  font-display: "swap";
+  src: local("FuturaCondensedExtraBold"), url("../assets/fonts/FuturaCondensedExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FuturaCondensedMedium";
+  font-display: "swap";
+  src: local("FuturaCondensedMedium"), url("../assets/fonts/FuturaCondensedMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  font-display: "swap";
+  src: local("FuturaMedium"), url("../assets/fonts/FuturaMedium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "FuturaBook";
+  font-display: "swap";
+  src: local("FuturaBook"), url("../assets/fonts/FuturaBook.otf") format("opentype");
+} ;

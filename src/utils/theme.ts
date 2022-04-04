@@ -1,96 +1,37 @@
 import { createTheme } from "@mui/material/styles";
-import FuturaCondensedExtraBold from "../assets/fonts/FuturaCondensedExtraBold.ttf";
-import FuturaCondensedMedium from "../assets/fonts/FuturaCondensedMedium.ttf";
-import FuturaMedium from "../assets/fonts/FuturaMedium.ttf";
-import FuturaBook from "../assets/fonts/FuturaCondensedBook.ttf";
-import NewYorkExtraLargeMedium from "../assets/fonts/NewYorkExtraLargeMedium.ttf";
-import NewYorkExtraLargeRegular from "../assets/fonts/NewYorkExtraLargeRegular.ttf";
-
-const newYorkExtraLargeMedium = {
-  fontFamily: "NewYorkExtraLargeMedium",
-  fontDisplay: "swap",
-  src: `
-    local('NewYorkExtraLargeMedium'),
-    url(${NewYorkExtraLargeMedium}) format('truetype')
-  `,
-};
-
-const newYorkExtraLargeRegular = {
-  fontFamily: "NewYorkExtraLargeRegular",
-  fontDisplay: "swap",
-  src: `
-    local('NewYorkExtraLargeRegular'),
-    url(${NewYorkExtraLargeRegular}) format('truetype')
-  `,
-};
-const futuraCondensedExtraBold = {
-  fontFamily: "FuturaCondensedExtraBold",
-  fontDisplay: "swap",
-  src: `
-    local('FuturaCondensedExtraBold'),
-    url(${FuturaCondensedExtraBold}) format('truetype')
-  `,
-};
-
-const futuraCondensedMedium = {
-  fontFamily: "FuturaCondensedMedium ",
-  fontDisplay: "swap",
-  src: `
-    local('FuturaCondensedMedium '),
-    url(${FuturaCondensedMedium}) format('truetype')
-  `,
-};
-
-const futuraMedium = {
-  fontFamily: "FuturaMedium",
-  fontDisplay: "swap",
-  src: `
-    local('FuturaMedium'),
-    url(${FuturaMedium}) format('truetype')
-  `,
-};
-
-const futuraBook = {
-  fontFamily: "FuturaBook",
-  fontDisplay: "swap",
-  src: `
-    local('FuturaBook'),
-    url(${FuturaBook}) format('truetype')
-  `,
-};
 
 const theme = createTheme({
   palette: {
+    mode: "light",
     primary: {
+      light: "",
       main: "#FFE3B9",
+      dark: "",
     },
     secondary: {
+      light: "",
       main: "#303232",
+      dark: "",
+    },
+    error: {
+      light: "",
+      main: "#DA0101",
+      dark: "",
+    },
+    warning: {
+      light: "",
+      main: "#FFA9A9",
+      dark: "",
+    },
+    text: {
+      primary: "#000000",
+      secondary: "#8A8A8A",
+      disabled: "#DADADA",
     },
   },
-  components: {
-    MuiCssBaseline: {
-      styleOverrides: {
-        "@font-face": [
-          futuraCondensedExtraBold,
-          futuraCondensedMedium,
-          futuraBook,
-          futuraMedium,
-          newYorkExtraLargeRegular,
-          newYorkExtraLargeMedium,
-        ],
-      },
-    },
-  },
+
   typography: {
-    fontFamily: [
-      "FuturaCondensedExtraBold",
-      "FuturaCondensedMedium",
-      "FuturaMedium",
-      "FuturaBook",
-      "NewYorkExtraLargeRegular",
-      "NewYorkExtraLargeMedium",
-    ].join(","),
+    fontFamily: ["FuturaBook", "sans-serif"].join(","),
     h1Primary: {
       fontFamily: "FuturaCondensedExtraBold",
       fontWeight: 900,
@@ -120,7 +61,7 @@ const theme = createTheme({
       textTransform: "uppercase",
     },
     h4PrimaryHero: {
-      fontFamily: "FuturaCondensedMedium",
+      fontFamily: "FuturaBook",
       fontSize: "24px",
       lineHeight: "100%",
       textTransform: "uppercase",

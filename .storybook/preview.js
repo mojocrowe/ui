@@ -1,3 +1,4 @@
+import "../src/utils/style.css";
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import { addDecorator } from "@storybook/react";

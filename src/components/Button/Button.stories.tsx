@@ -13,7 +13,6 @@ Primary.args = {
   children: "Primary",
   color: "primary",
   variant: "contained",
-  align: "left",
 };
 
 export const Secondary = Template.bind({});
@@ -21,5 +20,4 @@ Secondary.args = {
   children: "Secondary",
   color: "secondary",
   variant: "contained",
-  align: "right",
 };

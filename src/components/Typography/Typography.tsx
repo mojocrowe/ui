@@ -17,8 +17,8 @@ declare module "@mui/material/styles" {
     h6PrimaryAction: React.CSSProperties;
     body1Primary: React.CSSProperties;
     body2Primary: React.CSSProperties;
-    paragraph1Primary: React.CSSProperties;
-    paragraph2Primary: React.CSSProperties;
+    subtitle1Primary: React.CSSProperties;
+    subtitle2Primary: React.CSSProperties;
 
     h1Secondary: React.CSSProperties;
     h2Secondary: React.CSSProperties;
@@ -45,8 +45,8 @@ declare module "@mui/material/styles" {
     h6PrimaryAction: React.CSSProperties;
     body1Primary: React.CSSProperties;
     body2Primary: React.CSSProperties;
-    paragraph1Primary: React.CSSProperties;
-    paragraph2Primary: React.CSSProperties;
+    subtitle1Primary: React.CSSProperties;
+    subtitle2Primary: React.CSSProperties;
 
     h1Secondary: React.CSSProperties;
     h2Secondary: React.CSSProperties;
@@ -75,8 +75,8 @@ declare module "@mui/material/Typography" {
     h6PrimaryAction: true;
     body1Primary: true;
     body2Primary: true;
-    paragraph1Primary: true;
-    paragraph2Primary: true;
+    subtitle1Primary: true;
+    subtitle2Primary: true;
 
     h1Secondary: true;
     h2Secondary: true;
@@ -126,8 +126,8 @@ const Typography: React.FC<TypographyProps> = (props) => {
         h6PrimaryAction: "h6",
         body1Primary: "p",
         body2Primary: "p",
-        paragraph1Primary: "p",
-        paragraph2Primary: "p",
+        subtitle1Primary: "h6",
+        subtitle2Primary: "h6",
 
         h1Secondary: "h1",
         h2Secondary: "h2",

@@ -85,16 +85,16 @@ body2Primary.args = {
   variant: "body2Primary",
 };
 
-export const paragraph1Primary = Template.bind({});
-paragraph1Primary.args = {
-  children: "Paragraph 1 Primary",
-  variant: "paragraph1Primary",
+export const subtitle1Primary = Template.bind({});
+subtitle1Primary.args = {
+  children: "Subtitle 1 Primary",
+  variant: "subtitle1Primary",
 };
 
-export const paragraph2Primary = Template.bind({});
-paragraph2Primary.args = {
-  children: "Paragraph 2 Primary",
-  variant: "paragraph2Primary",
+export const subtitle2Primary = Template.bind({});
+subtitle2Primary.args = {
+  children: "Subtitle 2 Primary",
+  variant: "subtitle2Primary",
 };
 
 export const h1Secondary = Template.bind({});

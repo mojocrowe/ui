@@ -9,7 +9,15 @@ interface IProps extends MuiButtonProps {
 const StyledButton = styled(MuiButton, {})<IProps>(({ theme }) => ({}));
 
 const Button: React.FC<IProps> = (props) => {
-  return <StyledButton {...props}>{props.loading ? <CirclularProgress size={20} /> : props.children}</StyledButton>;
+  return (
+    <StyledButton {...props}>
+      {props.loading ? (
+        <CirclularProgress color={props.color === "primary" ? "secondary" : "primary"} size={20} />
+      ) : (
+        props.children
+      )}
+    </StyledButton>
+  );
 };
 
 export default Button;

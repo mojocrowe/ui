@@ -26,15 +26,15 @@ h3Primary.args = {
   variant: "h3Primary",
 };
 
-export const h4PrimarySmall = Template.bind({});
-h4PrimarySmall.args = {
-  children: "Heading 4 Primary Small",
-  variant: "h4PrimarySmall",
+export const h4PrimaryRegular = Template.bind({});
+h4PrimaryRegular.args = {
+  children: "Heading 4 Primary Regular",
+  variant: "h4PrimaryRegular",
 };
-export const h4PrimaryLarge = Template.bind({});
-h4PrimaryLarge.args = {
-  children: "Heading 4 Primary Large",
-  variant: "h4PrimaryLarge",
+export const h4PrimaryBold = Template.bind({});
+h4PrimaryBold.args = {
+  children: "Heading 4 Primary Bold",
+  variant: "h4PrimaryBold",
 };
 
 export const h4PrimaryHero = Template.bind({});
@@ -43,28 +43,28 @@ h4PrimaryHero.args = {
   variant: "h4PrimaryHero",
 };
 
-export const h5PrimarySmall = Template.bind({});
-h5PrimarySmall.args = {
-  children: "Heading 5 Primary Small",
-  variant: "h5PrimarySmall",
+export const h5PrimaryRegular = Template.bind({});
+h5PrimaryRegular.args = {
+  children: "Heading 5 Primary Regular",
+  variant: "h5PrimaryRegular",
 };
 
-export const h5PrimaryLarge = Template.bind({});
-h5PrimaryLarge.args = {
-  children: "Heading 5 Primary Large",
-  variant: "h5PrimaryLarge",
+export const h5PrimaryBold = Template.bind({});
+h5PrimaryBold.args = {
+  children: "Heading 5 Primary Bold",
+  variant: "h5PrimaryBold",
 };
 
-export const h6PrimarySmall = Template.bind({});
-h6PrimarySmall.args = {
-  children: "Heading 6 Primary Small",
-  variant: "h6PrimarySmall",
+export const h6PrimaryRegular = Template.bind({});
+h6PrimaryRegular.args = {
+  children: "Heading 6 Primary Regular",
+  variant: "h6PrimaryRegular",
 };
 
-export const h6PrimaryLarge = Template.bind({});
-h6PrimaryLarge.args = {
-  children: "Heading 6 Primary Large",
-  variant: "h6PrimaryLarge",
+export const h6PrimaryBold = Template.bind({});
+h6PrimaryBold.args = {
+  children: "Heading 6 Primary Bold",
+  variant: "h6PrimaryBold",
 };
 
 export const h6PrimaryAction = Template.bind({});
@@ -143,4 +143,52 @@ export const body2Secondary = Template.bind({});
 body2Secondary.args = {
   children: "Body 2 Secondary",
   variant: "body2Secondary",
+};
+
+export const h1Tertiary = Template.bind({});
+h1Tertiary.args = {
+  children: "Heading 1 Tertiary",
+  variant: "h1Tertiary",
+};
+
+export const h2Tertiary = Template.bind({});
+h2Tertiary.args = {
+  children: "Heading 2 Tertiary",
+  variant: "h2Tertiary",
+};
+
+export const h3Tertiary = Template.bind({});
+h3Tertiary.args = {
+  children: "Heading 3 Tertiary",
+  variant: "h3Tertiary",
+};
+
+export const h4Tertiary = Template.bind({});
+h4Tertiary.args = {
+  children: "Heading 4 Tertiary",
+  variant: "h4Tertiary",
+};
+
+export const h5Tertiary = Template.bind({});
+h5Tertiary.args = {
+  children: "Heading 5 Tertiary",
+  variant: "h5Tertiary",
+};
+
+export const h6Tertiary = Template.bind({});
+h6Tertiary.args = {
+  children: "Heading 6 Tertiary",
+  variant: "h6Tertiary",
+};
+
+export const body1Tertiary = Template.bind({});
+body1Tertiary.args = {
+  children: "Body 1 Tertiary",
+  variant: "body1Tertiary",
+};
+
+export const body2Tertiary = Template.bind({});
+body2Tertiary.args = {
+  children: "Body 2 Tertiary",
+  variant: "body2Tertiary",
 };

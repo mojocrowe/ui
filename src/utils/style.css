@@ -32,4 +32,10 @@
   font-family: "FuturaBook";
   font-display: "swap";
   src: local("FuturaBook"), url("../assets/fonts/FuturaBook.otf") format("opentype");
-} ;
+}
+
+@font-face {
+  font-family: "TimberWolf";
+  font-display: "swap";
+  src: local("TimberWolf"), url("../assets/fonts/TimberWolfRegular.ttf") format("truetype");
+}

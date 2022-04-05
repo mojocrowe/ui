@@ -7,18 +7,17 @@ declare module "@mui/material/styles" {
     h1Primary: React.CSSProperties;
     h2Primary: React.CSSProperties;
     h3Primary: React.CSSProperties;
-    h4PrimaryBold: React.CSSProperties;
-    h4PrimaryRegular: React.CSSProperties;
-    h4PrimaryHero: React.CSSProperties;
-    h5PrimaryBold: React.CSSProperties;
-    h5PrimaryRegular: React.CSSProperties;
-    h6PrimaryBold: React.CSSProperties;
-    h6PrimaryRegular: React.CSSProperties;
-    h6PrimaryAction: React.CSSProperties;
+    h4Primary: React.CSSProperties;
+    h4PrimaryMedium: React.CSSProperties;
+    // h4PrimaryHero: React.CSSProperties;
+    h5Primary: React.CSSProperties;
+    h5PrimaryMedium: React.CSSProperties;
+    h6Primary: React.CSSProperties;
+    h6PrimaryMedium: React.CSSProperties;
+    // h6PrimaryAction: React.CSSProperties;
     body1Primary: React.CSSProperties;
     body2Primary: React.CSSProperties;
-    subtitle1Primary: React.CSSProperties;
-    subtitle2Primary: React.CSSProperties;
+    body3Primary: React.CSSProperties;
 
     h1Secondary: React.CSSProperties;
     h2Secondary: React.CSSProperties;
@@ -44,18 +43,17 @@ declare module "@mui/material/styles" {
     h1Primary: React.CSSProperties;
     h2Primary: React.CSSProperties;
     h3Primary: React.CSSProperties;
-    h4PrimaryBold: React.CSSProperties;
-    h4PrimaryRegular: React.CSSProperties;
-    h4PrimaryHero: React.CSSProperties;
-    h5PrimaryBold: React.CSSProperties;
-    h5PrimaryRegular: React.CSSProperties;
-    h6PrimaryBold: React.CSSProperties;
-    h6PrimaryRegular: React.CSSProperties;
-    h6PrimaryAction: React.CSSProperties;
+    h4Primary: React.CSSProperties;
+    h4PrimaryMedium: React.CSSProperties;
+    // h4PrimaryHero: React.CSSProperties;
+    h5Primary: React.CSSProperties;
+    h5PrimaryMedium: React.CSSProperties;
+    h6Primary: React.CSSProperties;
+    h6PrimaryMedium: React.CSSProperties;
+    // h6PrimaryAction: React.CSSProperties;
     body1Primary: React.CSSProperties;
     body2Primary: React.CSSProperties;
-    subtitle1Primary: React.CSSProperties;
-    subtitle2Primary: React.CSSProperties;
+    body3Primary: React.CSSProperties;
 
     h1Secondary: React.CSSProperties;
     h2Secondary: React.CSSProperties;
@@ -83,18 +81,17 @@ declare module "@mui/material/Typography" {
     h1Primary: true;
     h2Primary: true;
     h3Primary: true;
-    h4PrimaryBold: true;
-    h4PrimaryRegular: true;
-    h4PrimaryHero: true;
-    h5PrimaryBold: true;
-    h5PrimaryRegular: true;
-    h6PrimaryBold: true;
-    h6PrimaryRegular: true;
-    h6PrimaryAction: true;
+    h4Primary: true;
+    h4PrimaryMedium: true;
+    // h4PrimaryHero: true;
+    h5Primary: true;
+    h5PrimaryMedium: true;
+    h6Primary: true;
+    h6PrimaryMedium: true;
+    // h6PrimaryAction: true;
     body1Primary: true;
     body2Primary: true;
-    subtitle1Primary: true;
-    subtitle2Primary: true;
+    body3Primary: true;
 
     h1Secondary: true;
     h2Secondary: true;
@@ -143,18 +140,17 @@ const Typography: React.FC<TypographyProps> = (props) => {
         h1Primary: "h1",
         h2Primary: "h2",
         h3Primary: "h3",
-        h4PrimaryBold: "h4",
-        h4PrimaryRegular: "h4",
-        h4PrimaryHero: "h4",
-        h5PrimaryBold: "h5",
-        h5PrimaryRegular: "h5",
-        h6PrimaryBold: "h6",
-        h6PrimaryRegular: "h6",
-        h6PrimaryAction: "h6",
+        h4Primary: "h4",
+        h4PrimaryMedium: "h4",
+        // h4PrimaryHero: "h4",
+        h5Primary: "h5",
+        h5PrimaryMedium: "h5",
+        h6Primary: "h6",
+        h6PrimaryMedium: "h6",
+        // h6PrimaryAction: "h6",
         body1Primary: "p",
         body2Primary: "p",
-        subtitle1Primary: "h6",
-        subtitle2Primary: "h6",
+        body3Primary: "p",
 
         h1Secondary: "h1",
         h2Secondary: "h2",

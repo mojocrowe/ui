@@ -26,52 +26,53 @@ h3Primary.args = {
   variant: "h3Primary",
 };
 
-export const h4PrimaryRegular = Template.bind({});
-h4PrimaryRegular.args = {
-  children: "Heading 4 Primary Regular",
-  variant: "h4PrimaryRegular",
-};
-export const h4PrimaryBold = Template.bind({});
-h4PrimaryBold.args = {
-  children: "Heading 4 Primary Bold",
-  variant: "h4PrimaryBold",
+export const h4Primary = Template.bind({});
+h4Primary.args = {
+  children: "Heading 4 Primary",
+  variant: "h4Primary",
 };
 
-export const h4PrimaryHero = Template.bind({});
-h4PrimaryHero.args = {
-  children: "Heading 4 Primary Hero",
-  variant: "h4PrimaryHero",
+export const h4PrimaryMedium = Template.bind({});
+h4PrimaryMedium.args = {
+  children: "Heading 4 Primary Medium",
+  variant: "h4PrimaryMedium",
 };
 
-export const h5PrimaryRegular = Template.bind({});
-h5PrimaryRegular.args = {
-  children: "Heading 5 Primary Regular",
-  variant: "h5PrimaryRegular",
+// export const h4PrimaryHero = Template.bind({});
+// h4PrimaryHero.args = {
+//   children: "Heading 4 Primary Hero",
+//   variant: "h4PrimaryHero",
+// };
+
+export const h5Primary = Template.bind({});
+h5Primary.args = {
+  children: "Heading 5 Primary",
+  variant: "h5Primary",
 };
 
-export const h5PrimaryBold = Template.bind({});
-h5PrimaryBold.args = {
-  children: "Heading 5 Primary Bold",
-  variant: "h5PrimaryBold",
+export const h5PrimaryMedium = Template.bind({});
+h5PrimaryMedium.args = {
+  children: "Heading 5 Primary Medium",
+  variant: "h5PrimaryMedium",
 };
 
-export const h6PrimaryRegular = Template.bind({});
-h6PrimaryRegular.args = {
-  children: "Heading 6 Primary Regular",
-  variant: "h6PrimaryRegular",
+export const h6Primary = Template.bind({});
+h6Primary.args = {
+  children: "Heading 6 Primary",
+  variant: "h6Primary",
 };
 
-export const h6PrimaryBold = Template.bind({});
-h6PrimaryBold.args = {
-  children: "Heading 6 Primary Bold",
-  variant: "h6PrimaryBold",
+export const h6PrimaryMedium = Template.bind({});
+h6PrimaryMedium.args = {
+  children: "Heading 6 Primary Medium",
+  variant: "h6PrimaryMedium",
 };
 
-export const h6PrimaryAction = Template.bind({});
-h6PrimaryAction.args = {
-  children: "Heading 6 Primary Action",
-  variant: "h6PrimaryAction",
-};
+// export const h6PrimaryAction = Template.bind({});
+// h6PrimaryAction.args = {
+//   children: "Heading 6 Primary Action",
+//   variant: "h6PrimaryAction",
+// };
 
 export const body1Primary = Template.bind({});
 body1Primary.args = {
@@ -85,16 +86,10 @@ body2Primary.args = {
   variant: "body2Primary",
 };
 
-export const subtitle1Primary = Template.bind({});
-subtitle1Primary.args = {
-  children: "Subtitle 1 Primary",
-  variant: "subtitle1Primary",
-};
-
-export const subtitle2Primary = Template.bind({});
-subtitle2Primary.args = {
-  children: "Subtitle 2 Primary",
-  variant: "subtitle2Primary",
+export const body3Primary = Template.bind({});
+body3Primary.args = {
+  children: "Body 3 Primary",
+  variant: "body3Primary",
 };
 
 export const h1Secondary = Template.bind({});

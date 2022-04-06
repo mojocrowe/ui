@@ -29,7 +29,6 @@ const theme = createTheme({
       disabled: "#DADADA",
     },
   },
-
   typography: {
     fontFamily: ["FuturaBook", "sans-serif"].join(","),
     h1Primary: {

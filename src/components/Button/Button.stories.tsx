@@ -21,3 +21,10 @@ Secondary.args = {
   color: "secondary",
   variant: "contained",
 };
+
+// export const Tertiary = Template.bind({});
+// Tertiary.args = {
+//   children: "Tertiary",
+//   color: "tertiary",
+//   variant: "contained",
+// };

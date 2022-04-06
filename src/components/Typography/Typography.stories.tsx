@@ -38,12 +38,6 @@ h4PrimaryMedium.args = {
   variant: "h4PrimaryMedium",
 };
 
-// export const h4PrimaryHero = Template.bind({});
-// h4PrimaryHero.args = {
-//   children: "Heading 4 Primary Hero",
-//   variant: "h4PrimaryHero",
-// };
-
 export const h5Primary = Template.bind({});
 h5Primary.args = {
   children: "Heading 5 Primary",
@@ -67,12 +61,6 @@ h6PrimaryMedium.args = {
   children: "Heading 6 Primary Medium",
   variant: "h6PrimaryMedium",
 };
-
-// export const h6PrimaryAction = Template.bind({});
-// h6PrimaryAction.args = {
-//   children: "Heading 6 Primary Action",
-//   variant: "h6PrimaryAction",
-// };
 
 export const body1Primary = Template.bind({});
 body1Primary.args = {

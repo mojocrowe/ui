@@ -1,4 +1,6 @@
-export declare module "@mui/material/styles" {
+export {};
+
+declare module "@mui/material/styles" {
   interface TypographyVariants {
     h1Primary: React.CSSProperties;
     h1Secondary: React.CSSProperties;
@@ -62,7 +64,7 @@ export declare module "@mui/material/styles" {
   }
 }
 
-export declare module "@mui/material/Typography" {
+declare module "@mui/material/Typography" {
   interface TypographyPropsVariantOverrides {
     h1Primary: true;
     h1Secondary: true;

@@ -59,7 +59,6 @@ const theme = createTheme({
       lineHeight: "120%",
       textTransform: "uppercase",
     },
-
     h4PrimaryMedium: {
       fontFamily: "FuturaCondensedMedium",
       fontSize: "24px",
@@ -67,18 +66,10 @@ const theme = createTheme({
       lineHeight: "28.8px",
       textTransform: "uppercase",
     },
-    // h4PrimaryHero: { fontFamily: "FuturaBook", fontSize: "24px", lineHeight: "100%", textTransform: "uppercase" },
     h5Primary: { fontFamily: "FuturaCondensedExtraBold", fontSize: "20px", fontWeight: 900, lineHeight: "24px" },
     h5PrimaryMedium: { fontFamily: "FuturaCondensedMedium", fontSize: "20px", lineHeight: "24px" },
     h6Primary: { fontFamily: "FuturaCondensedExtraBold", fontSize: "16px", fontWeight: 900, lineHeight: "24px" },
     h6PrimaryMedium: { fontFamily: "FuturaCondensedMedium", fontSize: "16px", lineHeight: "20px" },
-    // h6PrimaryAction: {
-    //   fontFamily: "FuturaCondensedMedium",
-    //   fontSize: "16px",
-    //   letterSpacing: "-0.4px",
-    //   lineHeight: "16px",
-    //   textTransform: "uppercase",
-    // },
     body1Primary: { fontFamily: "FuturaBook", fontSize: "16px", letterSpacing: "-0.4px", lineHeight: "20px" },
     body2Primary: { fontFamily: "FuturaBook", fontSize: "12px", letterSpacing: "-0.4px", lineHeight: "16px" },
     body3Primary: { fontFamily: "FuturaBook", fontSize: "10px", letterSpacing: "-0.4px", lineHeight: "12px" },

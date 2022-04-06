@@ -4,6 +4,7 @@ declare module "@mui/material/styles" {
   interface Palette {
     tertiary: Palette["primary"];
   }
+
   interface PaletteOptions {
     tertiary?: PaletteOptions["primary"];
   }
@@ -20,6 +21,7 @@ declare module "@mui/material/styles" {
     25?: string;
     0?: string;
   }
+
   interface SimplePaletteColorOptions {
     700?: string;
     600?: string;

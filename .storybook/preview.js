@@ -1,8 +1,15 @@
+import "../src/utils/style.css";
+import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import { addDecorator } from "@storybook/react";
 import theme from "../src/utils/theme";
 
-addDecorator((story) => <ThemeProvider theme={theme}>{story()}</ThemeProvider>);
+addDecorator((Story) => (
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <Story />
+  </ThemeProvider>
+));
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

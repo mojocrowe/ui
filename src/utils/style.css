@@ -1,0 +1,41 @@
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaCondensedExtraBold";
+  src: local("FuturaCondensedExtraBold"), url("../assets/fonts/FuturaCondensedExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaBook";
+  src: local("FuturaBook"), url("../assets/fonts/FuturaBook.otf") format("opentype");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaMedium";
+  src: local("FuturaMedium"), url("../assets/fonts/FuturaMedium.otf") format("opentype");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "FuturaCondensedMedium";
+  src: local("FuturaCondensedMedium"), url("../assets/fonts/FuturaCondensedMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "NewYorkExtraLargeMedium";
+  src: local("NewYorkExtraLargeMedium"), url("../assets/fonts/NewYorkExtraLargeMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "NewYorkExtraLargeRegular";
+  src: local("NewYorkExtraLargeRegular"), url("../assets/fonts/NewYorkExtraLargeRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: "swap";
+  font-family: "TimberWolf";
+  src: local("TimberWolf"), url("../assets/fonts/TimberWolfRegular.ttf") format("truetype");
+}

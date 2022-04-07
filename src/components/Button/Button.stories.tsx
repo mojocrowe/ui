@@ -21,4 +21,3 @@ Secondary.args = {
   color: "secondary",
   variant: "contained",
 };
-

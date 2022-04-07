@@ -1,6 +1,6 @@
+import CirclularProgress from "@mui/material/CircularProgress";
 import MuiButton, { ButtonProps as MuiButtonProps } from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
-import CirclularProgress from "@mui/material/CircularProgress";
 
 interface IProps extends MuiButtonProps {
   loading?: boolean;
@@ -8,15 +8,27 @@ interface IProps extends MuiButtonProps {
 
 const StyledButton = styled(MuiButton, {})<IProps>(({ theme }) => ({}));
 
+const CircularProgressSizes = new Map<string | undefined, number>([
+  ["small", 22],
+  ["medium", 24],
+  ["large", 26],
+]);
+
 const Button: React.FC<IProps> = (props) => {
   return (
-    <StyledButton {...props}>
-      {props.loading ? (
-        <CirclularProgress color={props.color === "primary" ? "secondary" : "primary"} size={20} />
-      ) : (
-        props.children
-      )}
-    </StyledButton>
+    <>
+      <StyledButton
+        {...props}
+        startIcon={props.loading === false ? props.startIcon : undefined}
+        endIcon={props.loading === false ? props.endIcon : undefined}
+      >
+        {props.loading ? (
+          <CirclularProgress color="inherit" size={CircularProgressSizes.get(props.size)} />
+        ) : (
+          props.children
+        )}
+      </StyledButton>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
-import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from "./Button";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+import ClearAllIcon from "@mui/icons-material/ClearAll";
 
 export default {
   component: Button,
@@ -35,6 +36,16 @@ PrimaryLarge.args = {
   variant: "contained",
 };
 
+export const PrimaryIcon = Template.bind({});
+PrimaryIcon.args = {
+  children: "Primary Icon",
+  color: "primary",
+  loading: false,
+  size: "large",
+  startIcon: <ClearAllIcon />,
+  variant: "contained",
+};
+
 export const SecondarySmall = Template.bind({});
 SecondarySmall.args = {
   children: "Secondary Small",
@@ -62,58 +73,51 @@ SecondaryLarge.args = {
   variant: "contained",
 };
 
-// export const TertiarySmall = Template.bind({});
-// TertiarySmall.args = {
-//   children: "TertiarySmall",
-//   color: "tertiary",
-//   loading: false,
-//   size: "small",
-//   variant: "contained",
-// };
-
-// export const TertiaryMedium = Template.bind({});
-// TertiaryMedium.args = {
-//   children: "Tertiary Medium",
-//   color: "tertiary",
-//   loading: false,
-//   size: "medium",
-//   variant: "contained",
-// };
-
-// export const TertiaryLarge = Template.bind({});
-// TertiaryLarge.args = {
-//   children: "Tertiary Large",
-//   color: "tertiary",
-//   loading: false,
-//   size: "large",
-//   variant: "contained",
-// };
-
-export const WarningSmall = Template.bind({});
-WarningSmall.args = {
-  children: "Warning Small",
-  color: "warning",
-  loading: false,
-  size: "small",
-  variant: "contained",
-};
-
-export const WarningMedium = Template.bind({});
-WarningMedium.args = {
-  children: "Warning Medium",
-  color: "warning",
-  loading: false,
-  size: "medium",
-  variant: "contained",
-};
-
-export const WarningLarge = Template.bind({});
-WarningLarge.args = {
-  children: "Warning Large",
-  color: "warning",
+export const SecondaryIcon = Template.bind({});
+SecondaryIcon.args = {
+  children: "Secondary Icon",
+  color: "secondary",
+  endIcon: <ClearAllIcon />,
   loading: false,
   size: "large",
   variant: "contained",
+};
+
+export const TertiarySmall = Template.bind({});
+TertiarySmall.args = {
+  children: "TertiarySmall",
+  color: "tertiary",
+  loading: false,
+  size: "small",
+  variant: "outlined",
+};
+
+export const TertiaryMedium = Template.bind({});
+TertiaryMedium.args = {
+  children: "Tertiary Medium",
+  color: "tertiary",
+  loading: false,
+  size: "medium",
+  variant: "outlined",
+};
+
+export const TertiaryLarge = Template.bind({});
+TertiaryLarge.args = {
+  children: "Tertiary Large",
+  color: "tertiary",
+  loading: false,
+  size: "large",
+  variant: "outlined",
+};
+
+export const TertiaryIcon = Template.bind({});
+TertiaryIcon.args = {
+  children: "Tertiary Icon",
+  color: "tertiary",
+  loading: false,
+  size: "large",
+  startIcon: <ClearAllIcon />,
+  variant: "outlined",
 };
 
 export const ErrorSmall = Template.bind({});
@@ -122,7 +126,7 @@ ErrorSmall.args = {
   color: "error",
   loading: false,
   size: "small",
-  variant: "contained",
+  variant: "outlined",
 };
 
 export const ErrorMedium = Template.bind({});
@@ -131,7 +135,7 @@ ErrorMedium.args = {
   color: "error",
   loading: false,
   size: "medium",
-  variant: "contained",
+  variant: "outlined",
 };
 
 export const ErrorLarge = Template.bind({});
@@ -140,59 +144,16 @@ ErrorLarge.args = {
   color: "error",
   loading: false,
   size: "large",
-  variant: "contained",
+  variant: "outlined",
 };
 
-export const SuccessSmall = Template.bind({});
-SuccessSmall.args = {
-  children: "Success Small",
-  color: "success",
-  loading: false,
-  size: "small",
-  variant: "contained",
-};
-
-export const SuccessMedium = Template.bind({});
-SuccessMedium.args = {
-  children: "Success Medium",
-  color: "success",
-  loading: false,
-  size: "medium",
-  variant: "contained",
-};
-
-export const SuccessLarge = Template.bind({});
-SuccessLarge.args = {
-  children: "Success Large",
-  color: "success",
+export const ErrorIcon = Template.bind({});
+ErrorIcon.args = {
+  children: "Error Icon",
+  color: "error",
+  endIcon: <ClearAllIcon />,
   loading: false,
   size: "large",
-  variant: "contained",
-};
-
-export const InfoSmall = Template.bind({});
-InfoSmall.args = {
-  children: "Info Small",
-  color: "info",
-  loading: false,
-  size: "small",
-  variant: "contained",
-};
-
-export const InfoMedium = Template.bind({});
-InfoMedium.args = {
-  children: "Info Medium",
-  color: "info",
-  loading: false,
-  size: "medium",
-  variant: "contained",
-};
-
-export const InfoLarge = Template.bind({});
-InfoLarge.args = {
-  children: "Info Large",
-  color: "info",
-  loading: false,
-  size: "large",
-  variant: "contained",
+  startIcon: <ClearAllIcon />,
+  variant: "outlined",
 };

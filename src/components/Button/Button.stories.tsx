@@ -11,35 +11,58 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const PrimarySmall = Template.bind({});
 PrimarySmall.args = {
-  children: "Primary Small",
+  children: "Text",
   color: "primary",
   loading: false,
   size: "small",
   variant: "contained",
 };
 
+export const PrimarySmallIcon = Template.bind({});
+PrimarySmallIcon.args = {
+  children: "Text",
+  color: "primary",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "small",
+  startIcon: <ClearAllIcon />,
+  variant: "contained",
+};
+
 export const PrimaryMedium = Template.bind({});
 PrimaryMedium.args = {
-  children: "Primary Medium",
+  children: "Text",
   color: "primary",
   loading: false,
   size: "medium",
   variant: "contained",
 };
 
+export const PrimaryMediumIcon = Template.bind({});
+PrimaryMediumIcon.args = {
+  children: "Text",
+  color: "primary",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "medium",
+  startIcon: <ClearAllIcon />,
+  variant: "contained",
+};
+
 export const PrimaryLarge = Template.bind({});
 PrimaryLarge.args = {
-  children: "Primary Large",
+  children: "Text",
   color: "primary",
   loading: false,
   size: "large",
   variant: "contained",
 };
 
-export const PrimaryIcon = Template.bind({});
-PrimaryIcon.args = {
-  children: "Primary Icon",
+export const PrimaryLargeIcon = Template.bind({});
+PrimaryLargeIcon.args = {
+  children: "Text",
   color: "primary",
+  endIcon: <ClearAllIcon />,
   loading: false,
   size: "large",
   startIcon: <ClearAllIcon />,
@@ -48,72 +71,118 @@ PrimaryIcon.args = {
 
 export const SecondarySmall = Template.bind({});
 SecondarySmall.args = {
-  children: "Secondary Small",
+  children: "Text",
   color: "secondary",
   loading: false,
   size: "small",
+  variant: "contained",
+};
+
+export const SecondarySmallIcon = Template.bind({});
+SecondarySmallIcon.args = {
+  children: "Text",
+  color: "secondary",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "small",
+  startIcon: <ClearAllIcon />,
   variant: "contained",
 };
 
 export const SecondaryMedium = Template.bind({});
 SecondaryMedium.args = {
-  children: "Secondary Medium",
+  children: "Text",
   color: "secondary",
   loading: false,
   size: "medium",
   variant: "contained",
 };
 
+export const SecondaryMediumIcon = Template.bind({});
+SecondaryMediumIcon.args = {
+  children: "Text",
+  color: "secondary",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "medium",
+  startIcon: <ClearAllIcon />,
+  variant: "contained",
+};
+
 export const SecondaryLarge = Template.bind({});
 SecondaryLarge.args = {
-  children: "Secondary Large",
+  children: "Text",
   color: "secondary",
   loading: false,
   size: "large",
   variant: "contained",
 };
 
-export const SecondaryIcon = Template.bind({});
-SecondaryIcon.args = {
-  children: "Secondary Icon",
+export const SecondaryLargeIcon = Template.bind({});
+SecondaryLargeIcon.args = {
+  children: "Text",
   color: "secondary",
   endIcon: <ClearAllIcon />,
   loading: false,
   size: "large",
+  startIcon: <ClearAllIcon />,
   variant: "contained",
 };
 
 export const TertiarySmall = Template.bind({});
 TertiarySmall.args = {
-  children: "TertiarySmall",
+  children: "Text",
   color: "tertiary",
   loading: false,
   size: "small",
   variant: "outlined",
 };
 
+export const TertiarySmallIcon = Template.bind({});
+TertiarySmallIcon.args = {
+  children: "Text",
+  color: "tertiary",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "small",
+  startIcon: <ClearAllIcon />,
+  variant: "contained",
+};
+
 export const TertiaryMedium = Template.bind({});
 TertiaryMedium.args = {
-  children: "Tertiary Medium",
+  children: "Text",
   color: "tertiary",
   loading: false,
   size: "medium",
   variant: "outlined",
 };
 
+export const TertiaryMediumIcon = Template.bind({});
+TertiaryMediumIcon.args = {
+  children: "Text",
+  color: "tertiary",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "medium",
+  startIcon: <ClearAllIcon />,
+  variant: "contained",
+};
+
 export const TertiaryLarge = Template.bind({});
 TertiaryLarge.args = {
-  children: "Tertiary Large",
+  children: "Text",
   color: "tertiary",
   loading: false,
   size: "large",
   variant: "outlined",
 };
 
-export const TertiaryIcon = Template.bind({});
-TertiaryIcon.args = {
-  children: "Tertiary Icon",
+export const TertiaryLargeIcon = Template.bind({});
+TertiaryLargeIcon.args = {
+  children: "Text",
   color: "tertiary",
+  endIcon: <ClearAllIcon />,
   loading: false,
   size: "large",
   startIcon: <ClearAllIcon />,
@@ -122,34 +191,56 @@ TertiaryIcon.args = {
 
 export const ErrorSmall = Template.bind({});
 ErrorSmall.args = {
-  children: "Error Small",
+  children: "Text",
   color: "error",
   loading: false,
   size: "small",
   variant: "outlined",
 };
 
+export const ErrorSmallIcon = Template.bind({});
+ErrorSmallIcon.args = {
+  children: "Text",
+  color: "error",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "small",
+  startIcon: <ClearAllIcon />,
+  variant: "outlined",
+};
+
 export const ErrorMedium = Template.bind({});
 ErrorMedium.args = {
-  children: "Error Medium",
+  children: "Text",
   color: "error",
   loading: false,
   size: "medium",
   variant: "outlined",
 };
 
+export const ErrorMediumIcon = Template.bind({});
+ErrorMediumIcon.args = {
+  children: "Text",
+  color: "error",
+  endIcon: <ClearAllIcon />,
+  loading: false,
+  size: "medium",
+  startIcon: <ClearAllIcon />,
+  variant: "outlined",
+};
+
 export const ErrorLarge = Template.bind({});
 ErrorLarge.args = {
-  children: "Error Large",
+  children: "Text",
   color: "error",
   loading: false,
   size: "large",
   variant: "outlined",
 };
 
-export const ErrorIcon = Template.bind({});
-ErrorIcon.args = {
-  children: "Error Icon",
+export const ErrorLargeIcon = Template.bind({});
+ErrorLargeIcon.args = {
+  children: "Text",
   color: "error",
   endIcon: <ClearAllIcon />,
   loading: false,

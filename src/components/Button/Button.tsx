@@ -6,27 +6,24 @@ interface IProps extends MuiButtonProps {
   loading?: boolean;
 }
 
-const StyledButton = styled(MuiButton, {})<IProps>(({ theme }) => ({}));
-
-const CircularProgressSizes = new Map<string | undefined, number>([
-  ["small", 22],
-  ["medium", 24],
-  ["large", 26],
-]);
+const StyledButton = styled(
+  MuiButton,
+  {}
+)<IProps>(({ theme }) => ({
+  boxShadow: "0px 2px 16px #00000026",
+  padding: "0px 16px",
+}));
 
 const Button: React.FC<IProps> = (props) => {
   return (
     <>
       <StyledButton
         {...props}
-        startIcon={props.loading === false ? props.startIcon : undefined}
+        disableRipple
         endIcon={props.loading === false ? props.endIcon : undefined}
+        startIcon={props.loading === false ? props.startIcon : undefined}
       >
-        {props.loading ? (
-          <CirclularProgress color="inherit" size={CircularProgressSizes.get(props.size)} />
-        ) : (
-          props.children
-        )}
+        {props.loading ? <CirclularProgress color="inherit" size={16} /> : props.children}
       </StyledButton>
     </>
   );

@@ -70,13 +70,36 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: "20px",
+          border: "1px solid inherit",
+        },
+        sizeSmall: {
+          borderRadius: "24px",
+          height: "32px",
+          minWidth: "54px",
+        },
+        sizeMedium: {
+          borderRadius: "24px",
+          height: "44px",
+          minWidth: "54px",
+        },
+        sizeLarge: {
+          borderRadius: "44px",
+          height: "52px",
+          minWidth: "54px",
         },
       },
     },
   },
   typography: {
     fontFamily: ["FuturaBook", "sans-serif"].join(","),
+    button: {
+      fontFamily: "FuturaCondensedMedium",
+      fontSize: "16px",
+      fontWeight: 500,
+      lineHeight: "16px",
+      textTransform: "uppercase",
+      letterSpacing: "-0.4px",
+    },
     h1Primary: {
       fontFamily: "FuturaCondensedExtraBold",
       fontSize: "72px",

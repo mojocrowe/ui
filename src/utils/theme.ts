@@ -96,9 +96,9 @@ const theme = createTheme({
       fontFamily: "FuturaCondensedMedium",
       fontSize: "16px",
       fontWeight: 500,
+      letterSpacing: "-0.4px",
       lineHeight: "16px",
       textTransform: "uppercase",
-      letterSpacing: "-0.4px",
     },
     h1Primary: {
       fontFamily: "FuturaCondensedExtraBold",

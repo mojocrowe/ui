@@ -10,7 +10,7 @@ const StyledButton = styled(
   MuiButton,
   {}
 )<IProps>(({ theme }) => ({
-  boxShadow: `${theme.spacing(0, 0.25, 2)} rgba(0, 0, 0, 0.15)`,
+  boxShadow: "0px 2px 16px rgba(0, 0, 0, 0.15)",
   padding: theme.spacing(0, 2),
 }));
 

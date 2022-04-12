@@ -73,17 +73,17 @@ const theme = createTheme({
           border: "1px solid inherit",
         },
         sizeSmall: {
-          borderRadius: "24px",
+          borderRadius: "16px",
           height: "32px",
           minWidth: "54px",
         },
         sizeMedium: {
-          borderRadius: "24px",
+          borderRadius: "22px",
           height: "44px",
           minWidth: "54px",
         },
         sizeLarge: {
-          borderRadius: "44px",
+          borderRadius: "26px",
           height: "52px",
           minWidth: "54px",
         },

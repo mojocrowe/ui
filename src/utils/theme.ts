@@ -66,8 +66,40 @@ const theme = createTheme({
       secondary: "#8A8A8A",
     },
   },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          border: "1px solid inherit",
+        },
+        sizeSmall: {
+          borderRadius: "16px",
+          height: "32px",
+          minWidth: "54px",
+        },
+        sizeMedium: {
+          borderRadius: "22px",
+          height: "44px",
+          minWidth: "54px",
+        },
+        sizeLarge: {
+          borderRadius: "26px",
+          height: "52px",
+          minWidth: "54px",
+        },
+      },
+    },
+  },
   typography: {
     fontFamily: ["FuturaBook", "sans-serif"].join(","),
+    button: {
+      fontFamily: "FuturaCondensedMedium",
+      fontSize: "16px",
+      fontWeight: 500,
+      letterSpacing: "-0.4px",
+      lineHeight: "16px",
+      textTransform: "uppercase",
+    },
     h1Primary: {
       fontFamily: "FuturaCondensedExtraBold",
       fontSize: "72px",

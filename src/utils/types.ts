@@ -8,7 +8,7 @@ declare module "@mui/material/styles" {
   interface PaletteOptions {
     tertiary?: PaletteOptions["primary"];
   }
-
+  
   interface PaletteColor {
     700?: string;
     600?: string;

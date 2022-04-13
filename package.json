@@ -1,10 +1,9 @@
 {
   "name": "mojo-ui",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "build": "rollup -c",
-    "build-storybook": "build-storybook",
+    "storyboook:export": "build-storybook",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "storybook": "start-storybook -p 6006"
@@ -12,6 +11,9 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",

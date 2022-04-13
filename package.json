@@ -2,7 +2,7 @@
   "name": "mojo-ui",
   "version": "0.1.0",
   "scripts": {
-    "build": "rollup -c",
+    "preinstall": "rollup -c",
     "storyboook:export": "build-storybook",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",

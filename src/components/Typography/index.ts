@@ -1,2 +1,2 @@
 export { default as Typography } from "./Typography";
-export * from "./types";
+export * from "./Typography.types";

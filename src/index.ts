@@ -4,4 +4,4 @@ export * from "./components/Button";
 export { default as Typography } from "./components/Typography";
 export * from "./components/Typography";
 
-export * from "./utils/theme";
+export { default as theme } from "./utils/theme";

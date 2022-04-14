@@ -1,6 +1,3 @@
-import Button from "./components/Button/Button";
-import Typography from "./components/Typography/Typography";
-
-export { Button };
-export { Typography };
-export { default as theme } from "./utils/theme";
+export * from "./components/Button";
+export * from "./components/Typography";
+export * from "./utils/theme";

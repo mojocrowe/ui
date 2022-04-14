@@ -2,18 +2,6 @@ import CirclularProgress from "@mui/material/CircularProgress";
 import MuiButton, { ButtonProps as MuiButtonProps } from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 
-declare module "@mui/material/Button" {
-  interface ButtonPropsColorOverrides {
-    tertiary: true;
-  }
-}
-
-declare module "@mui/material/CircularProgress" {
-  interface CircularProgressPropsColorOverrides {
-    tertiary: true;
-  }
-}
-
 interface IProps extends MuiButtonProps {
   loading?: boolean;
 }

@@ -31,7 +31,7 @@ The `footer` is optional. When the body is present it must conform to the [Commi
   │      │
   │      └─⫸ Commit Scope: components|utils|Button|TextField|Typography
   │
-  └─⫸ Commit Type: build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test
+  └─⫸ Commit Type: build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|test
 ```
 
 The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
@@ -50,7 +50,6 @@ Must be one of the following:
 - **perf**: A code change that improves performance
 - **refactor**: A code change that neither fixes a bug nor adds a feature
 - **revert**: Revert a previous commit
-- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - **test**: Adding missing tests or correcting existing tests
 
 ##### Scope

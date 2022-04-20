@@ -31,7 +31,7 @@ The `footer` is optional. When the body is present it must conform to the [Commi
   │      │
   │      └─⫸ Commit Scope: components|utils|Button|TextField|Typography
   │
-  └─⫸ Commit Type: build|ci|docs|feat|fix|improvement|perf|refactor|revert|test
+  └─⫸ Commit Type: build|chore|ci|docs|feat|fix|improvement|perf|refactor|revert|style|test
 ```
 
 The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
@@ -40,8 +40,9 @@ The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is opti
 
 Must be one of the following:
 
-- **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-- **ci**: Changes to our CI configuration files and scripts (examples: CircleCi, SauceLabs)
+- **build**: Changes that affect the build system or external dependencies
+- **chore**: Changes that do not affect production code
+- **ci**: Changes to our CI configuration files and scripts
 - **docs**: Documentation only changes
 - **feat**: A new feature
 - **fix**: A bug fix
@@ -49,6 +50,7 @@ Must be one of the following:
 - **perf**: A code change that improves performance
 - **refactor**: A code change that neither fixes a bug nor adds a feature
 - **revert**: Revert a previous commit
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - **test**: Adding missing tests or correcting existing tests
 
 ##### Scope

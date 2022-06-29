@@ -22,7 +22,7 @@ declare module "@mui/material/styles" {
 
     newYorkHeadingLarge: React.CSSProperties;
     newYorkHeadingMedium: React.CSSProperties;
-    newYorkaHeadingSmall: React.CSSProperties;
+    newYorkHeadingSmall: React.CSSProperties;
     newYorkHeadingXSmall: React.CSSProperties;
     newYorkParagraphLarge: React.CSSProperties;
     newYorkParagraphMedium: React.CSSProperties;
@@ -59,7 +59,7 @@ declare module "@mui/material/styles" {
 
     newYorkHeadingLarge: React.CSSProperties;
     newYorkHeadingMedium: React.CSSProperties;
-    newYorkaHeadingSmall: React.CSSProperties;
+    newYorkHeadingSmall: React.CSSProperties;
     newYorkHeadingXSmall: React.CSSProperties;
     newYorkParagraphLarge: React.CSSProperties;
     newYorkParagraphMedium: React.CSSProperties;
@@ -98,7 +98,7 @@ declare module "@mui/material/Typography" {
 
     newYorkHeadingLarge: true;
     newYorkHeadingMedium: true;
-    newYorkaHeadingSmall: true;
+    newYorkHeadingSmall: true;
     newYorkHeadingXSmall: true;
     newYorkParagraphLarge: true;
     newYorkParagraphMedium: true;
@@ -121,7 +121,7 @@ type IProps = MuiTypographyProps;
 const StyledTypography = styled(MuiTypography, {})<IProps>(({ theme }) => ({}));
 
 const Typography: React.FC<IProps> = (props) => {
-  return <StyledTypography {...props} variantMapping={{}} />;
+  return <StyledTypography {...props} />;
 };
 
 export default Typography;

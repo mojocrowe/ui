@@ -21,7 +21,7 @@ declare module "@mui/material/styles" {
 
     newYorkHeadingLarge: React.CSSProperties;
     newYorkHeadingMedium: React.CSSProperties;
-    newYorkaHeadingSmall: React.CSSProperties;
+    newYorkHeadingSmall: React.CSSProperties;
     newYorkHeadingXSmall: React.CSSProperties;
     newYorkParagraphLarge: React.CSSProperties;
     newYorkParagraphMedium: React.CSSProperties;
@@ -58,7 +58,7 @@ declare module "@mui/material/styles" {
 
     newYorkHeadingLarge: React.CSSProperties;
     newYorkHeadingMedium: React.CSSProperties;
-    newYorkaHeadingSmall: React.CSSProperties;
+    newYorkHeadingSmall: React.CSSProperties;
     newYorkHeadingXSmall: React.CSSProperties;
     newYorkParagraphLarge: React.CSSProperties;
     newYorkParagraphMedium: React.CSSProperties;
@@ -97,7 +97,7 @@ declare module "@mui/material/Typography" {
 
     newYorkHeadingLarge: true;
     newYorkHeadingMedium: true;
-    newYorkaHeadingSmall: true;
+    newYorkHeadingSmall: true;
     newYorkHeadingXSmall: true;
     newYorkParagraphLarge: true;
     newYorkParagraphMedium: true;

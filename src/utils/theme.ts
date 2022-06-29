@@ -245,7 +245,7 @@ const theme = createTheme({
       fontWeight: 400,
       lineHeight: "52px",
     },
-    newYorkaHeadingSmall: {
+    newYorkHeadingSmall: {
       fontFamily: "NewYorkExtraLargeRegular",
       fontSize: "32px",
       fontWeight: 400,

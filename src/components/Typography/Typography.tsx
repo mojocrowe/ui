@@ -118,7 +118,7 @@ declare module "@mui/material/Typography" {
 
 type IProps = MuiTypographyProps;
 
-const StyledTypography = styled(MuiTypography, {})<IProps>(({ theme }) => ({}));
+const StyledTypography = styled(MuiTypography, {})<IProps>(({ theme }) => ({})) as typeof Typography;
 
 const Typography: React.FC<IProps> = (props) => {
   return <StyledTypography {...props} />;

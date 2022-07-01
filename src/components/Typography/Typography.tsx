@@ -117,7 +117,7 @@ declare module "@mui/material/Typography" {
 }
 
 const Typography = <C extends React.ElementType>(props: MuiTypographyProps<C, { component?: C }>) => {
-  return <MuiTypography {...props}>props.children</MuiTypography>;
+  return <MuiTypography {...props}>{props.children}</MuiTypography>;
 };
 
 export default Typography;

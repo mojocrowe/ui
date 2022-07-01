@@ -1,5 +1,5 @@
 import MuiTypography, { TypographyProps as MuiTypographyProps } from "@mui/material/Typography";
-import { styled } from "@mui/material/styles";
+import React from "react";
 
 declare module "@mui/material/styles" {
   interface TypographyVariants {
@@ -116,12 +116,8 @@ declare module "@mui/material/Typography" {
   }
 }
 
-type IProps = MuiTypographyProps;
-
-const StyledTypography = styled(MuiTypography, {})<IProps>(({ theme }) => ({})) as typeof Typography;
-
-const Typography: React.FC<IProps> = (props) => {
-  return <StyledTypography {...props} />;
+const Typography = <C extends React.ElementType>(props: MuiTypographyProps<C, { component?: C }>) => {
+  return <MuiTypography {...props}>props.children</MuiTypography>;
 };
 
 export default Typography;

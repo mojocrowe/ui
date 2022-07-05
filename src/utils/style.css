@@ -1,41 +1,29 @@
 @font-face {
-  font-display: "swap";
-  font-family: "FuturaCondensedExtraBold";
-  src: local("FuturaCondensedExtraBold"), url("../assets/fonts/FuturaCondensedExtraBold.otf") format("opentype");
+  font-display: "fallback";
+  font-family: "FuturaBold";
+  src: local("FuturaBold"), url("../assets/fonts/FuturaBold.woff2");
 }
 
 @font-face {
-  font-display: "swap";
+  font-display: "fallback";
   font-family: "FuturaBook";
-  src: local("FuturaBook"), url("../assets/fonts/FuturaBook.otf") format("opentype");
+  src: local("FuturaBook"), url("../assets/fonts/FuturaBook.woff2");
 }
 
 @font-face {
-  font-display: "swap";
-  font-family: "FuturaMedium";
-  src: local("FuturaMedium"), url("../assets/fonts/FuturaMedium.otf") format("opentype");
+  font-display: "fallback";
+  font-family: "FuturaCondensed";
+  src: local("FuturaCondensed"), url("../assets/fonts/FuturaCondensed.woff2");
 }
 
 @font-face {
-  font-display: "swap";
-  font-family: "FuturaCondensedMedium";
-  src: local("FuturaCondensedMedium"), url("../assets/fonts/FuturaCondensedMedium.ttf") format("truetype");
+  font-display: "fallback";
+  font-family: "NewYork";
+  src: local("NewYork"), url("../assets/fonts/NewYork.woff2");
 }
 
 @font-face {
-  font-display: "swap";
-  font-family: "NewYorkExtraLargeMedium";
-  src: local("NewYorkExtraLargeMedium"), url("../assets/fonts/NewYorkExtraLargeMedium.ttf") format("truetype");
-}
-
-@font-face {
-  font-display: "swap";
-  font-family: "NewYorkExtraLargeRegular";
-  src: local("NewYorkExtraLargeRegular"), url("../assets/fonts/NewYorkExtraLargeRegular.ttf") format("truetype");
-}
-
-@font-face {
-  font-display: "swap";
+  font-display: "fallback";
   font-family: "TimberWolf";
-  src: local("TimberWolf"), url("../assets/fonts/TimberWolfRegular.ttf") format("truetype");
+  src: local("TimberWolf"), url("../assets/fonts/TimberWolf.woff2");
 }

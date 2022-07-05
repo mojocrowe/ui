@@ -1,7 +1,7 @@
 @font-face {
   font-display: "fallback";
   font-family: "FuturaBold";
-  src: local("FuturaBold"), url("../assets/fonts/FuturaBold.ttf");
+  src: local("FuturaBold"), url("../assets/fonts/FuturaBold.woff2");
 }
 
 @font-face {
